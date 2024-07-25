@@ -29,3 +29,11 @@ sudo docker exec -it 容器ID /bin/bash
 # 登录数据库
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'WITH GRANT OPTION;
 ```
+
+## redis 单机 7.x
+```shell
+# 启动
+docker-compose -f docker-compose.redis.yml up -d
+```
+
+
